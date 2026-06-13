@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>屬靈爭戰禱告方向</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Georgia", "Noto Serif TC", serif;
+      background: #f5f0ea;
+      color: #2c2416;
+      line-height: 1.9;
+    }
+
+    /* Hero header */
+    .hero {
+      background: linear-gradient(160deg, #1a0a00 0%, #3b1a06 50%, #5c2a0a 100%);
+      color: #f5e8d0;
+      text-align: center;
+      padding: 64px 24px 56px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "✦";
+      position: absolute;
+      font-size: 300px;
+      opacity: 0.04;
+      top: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+    .hero h1 {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    .hero .subtitle {
+      font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+      opacity: 0.8;
+      margin-bottom: 8px;
+    }
+    .hero .meta {
+      font-size: 0.85rem;
+      opacity: 0.6;
+      letter-spacing: 0.1em;
+    }
+    .hero .divider {
+      margin: 24px auto 0;
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #c9956a, transparent);
+    }
+
+    /* Main container */
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    /* Table of contents */
+    .toc {
+      background: #fff8f0;
+      border: 1px solid #e8d8c4;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 32px 0;
+    }
+    .toc h3 {
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #8b4513;
+      margin-bottom: 12px;
+    }
+    .toc ol {
+      padding-left: 20px;
+      font-size: 0.9rem;
+      color: #5c2a0a;
+    }
+    .toc ol li { margin-bottom: 6px; }
+    .toc ol li a { color: #7a3510; text-decoration: none; }
+    .toc ol li a:hover { text-decoration: underline; }
+
+    /* Section headings */
+    h2.section-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      background: linear-gradient(135deg, #3b1a06, #7a3510);
+      border-radius: 8px;
+      padding: 14px 22px;
+      margin: 40px 0 20px;
+      letter-spacing: 0.06em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2.section-title .icon {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    /* Body paragraphs */
+    .body-text {
+      font-size: 0.97rem;
+      color: #3a2010;
+      margin: 0 0 16px;
+    }
+
+    /* Prayer points */
+    .prayer-list {
+      list-style: none;
+      margin: 0 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .prayer-list li {
+      background: #fffdf9;
+      border: 1px solid #e8d8c4;
+      border-left: 4px solid #c9956a;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      font-size: 0.95rem;
+      color: #2c1a08;
+    }
+    .prayer-list li::before {
+      content: "🙏";
+      margin-right: 8px;
+      font-size: 0.9em;
+    }
+
+    /* Scripture block */
+    .scripture {
+      background: linear-gradient(135deg, #fdf3e7, #f5e6d0);
+      border: 1px solid #d4aa80;
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin: 20px 0 28px;
+      font-style: italic;
+      color: #5c2a0a;
+      font-size: 0.92rem;
+      text-align: center;
+      line-height: 1.8;
+    }
+    .scripture::before {
+      content: "❝";
+      font-size: 1.5em;
+      color: #c9956a;
+      display: block;
+      margin-bottom: 4px;
+      line-height: 1;
+    }
+
+    hr.section-divider {
+      border: none;
+      border-top: 1px dashed #d4aa80;
+      margin: 12px 0 24px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 32px 16px;
+      font-size: 0.8rem;
+      color: #9c7050;
+      border-top: 1px solid #e8d8c4;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 500px) {
+      .hero { padding: 48px 16px 40px; }
+      h2.section-title { font-size: 1.05rem; padding: 12px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="hero">
+  <h1>屬靈爭戰禱告方向</h1>
+  <p class="subtitle">從1970年代禁令到2026年放行——禱告方向</p>
+  <p class="meta">以弗所書 6:10-18 ｜ 哥林多後書 10:4-5 ｜ 2026年6月</p>
+  <div class="divider"></div>
+</div>
+
+<div class="container">
+
+  <!-- Table of Contents -->
+  <nav class="toc">
+    <h3>目錄</h3>
+    <ol>
+      <li><a href="#s0">引言：戰線移動了，戰爭沒有結束</a></li>
+      <li><a href="#s1">一、認清戰場：仇敵不是屬血氣的</a></li>
+      <li><a href="#s2">二、攻破營壘：戰爭在思想的版圖上</a></li>
+      <li><a href="#s3">三、補上缺口：法規退下的地方，祭壇要立起來</a></li>
+      <li><a href="#s4">四、穿戴軍裝：為這場仗逐件裝備</a></li>
+      <li><a href="#s5">五、得勝的武器：羔羊的血與見證的道</a></li>
+      <li><a href="#s6">六、轉守為攻：奪回藝術的山頭</a></li>
+    </ol>
+  </nav>
+
+  <!-- Intro -->
+  <section id="s0">
+    <h2 class="section-title"><span class="icon">⚔️</span>引言：戰線移動了，戰爭沒有結束</h2>
+    <p class="body-text">表面上看，這是管制思維的轉變：政府從「內容裁判」退到「場地管理員」，從替宗教群體把關，變為制定遊戲規則。但從屬靈的眼光看，這個轉變意味著一條戰線的移動——1970年代，法規替教會擋在門口，攔下了對基督的扭曲呈現；2026年，門檻撤了，把關的責任從法規轉到了每一個人的心思意念。從前由審查官做的事，現在要由辨別力來做；</p>
+    <p class="body-text">所以教會此刻需要儆醒的是，不是音樂劇上演，而是打錯仗：把血氣的對象當仇敵，卻讓真正的仇敵在人心的戰場上不受攔阻。</p>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- Section 1 -->
+  <section id="s1">
+    <h2 class="section-title"><span class="icon">👁️</span>一、認清戰場：仇敵不是屬血氣的</h2>
+    <p class="body-text">政府不是仇敵，劇作家不是仇敵，演員不是仇敵，買票的觀眾更不是仇敵——他們是這場戰爭要奪回的人。仇敵是那在幕後迷惑人心、五十年來不斷把「耶穌只是人」這個謊言包裝得動聽的那一位。</p>
+    <ul class="prayer-list">
+      <li>求主開教會的眼睛，像開以利沙僕人的眼睛一樣（王下6:17）：看見這場爭議真正的戰場不在劇院、不在國會，而在天空屬靈氣的層面與人的心思之間。</li>
+      <li>求主攔阻教會打錯仗：凡把怒氣對準政府、藝術家或觀眾的言語，求主勒住；免得我們攻擊了要拯救的人，卻放過了真正的仇敵。</li>
+      <li>奉主的名宣告：這座城市的劇院、藝術界、媒體，不是仇敵的領土，是元帥尚未收復的禾場。</li>
+    </ul>
+    <div class="scripture">「因我們並不是與屬血氣的爭戰，乃是與那些執政的、掌權的、管轄這幽暗世界的，以及天空屬靈氣的惡魔爭戰。」（弗6:12）</div>
+  </section>
+
+  <!-- Section 2 -->
+  <section id="s2">
+    <h2 class="section-title"><span class="icon">🏰</span>二、攻破營壘：戰爭在思想的版圖上</h2>
+    <p class="body-text">林後10:4-5說屬靈的兵器是用來「攻破堅固的營壘」，而營壘的定義是「各樣的計謀（arguments）和各樣攔阻人認識神的那些自高之事」——營壘是思想體系。這部劇五十年來建造的營壘正是一套思想：耶穌值得同情但不值得敬拜；祂是悲劇英雄，不是復活的主；「祂是誰」可以各自表述。</p>
+    <ul class="prayer-list">
+      <li>求主攻破「耶穌只是人」的營壘：每一次演出唱出懸而未決的疑問，求聖靈就在觀眾心裡放下不肯罷休的追問，使謊言自己拆毀自己的工事。</li>
+      <li>求主攻破「真理只是觀點之一」的營壘：在人人都說「這只是藝術詮釋」的公共廣場，求主使教會的見證帶著無法歸類為「另一種觀點」的能力——因為福音不是論述，是大能。</li>
+      <li>求主也察驗教會內部的營壘：自義、恐懼、受害者心態、對昔日「有法規保護」的懷念——凡攔阻我們認識神在此刻心意的自高之事，一併拆毀。</li>
+    </ul>
+    <div class="scripture">「我們爭戰的兵器本不是屬血氣的，乃是在神面前有能力，可以攻破堅固的營壘，將各樣的計謀，各樣攔阻人認識神的那些自高之事，一概攻破了。」（林後10:4-5）</div>
+  </section>
+
+  <!-- Section 3 -->
+  <section id="s3">
+    <h2 class="section-title"><span class="icon">🛡️</span>三、補上缺口：法規退下的地方，祭壇要立起來</h2>
+    <p class="body-text">從前法規站崗的地方，如今需要守望者站崗。以西結書22:30說，神在尋找「重修牆垣、在我面前為這國站在破口防堵」的人——管制的牆退後了一截，這個缺口不是用抗議填補，是用禱告填補。</p>
+    <ul class="prayer-list">
+      <li>求主興起這座城市的代禱者：在八月開演前的每一週，為劇院、為觀眾、為教會築起禱告的牆；使教會的禱告祭壇比從前的審查門檻更高。</li>
+      <li>求主使眾教會在演出檔期（8月19日至9月6日）設立守望：不是抗議的糾察線，是看不見的禱告防線——求聖靈在每一場演出中與每一個觀眾的心同在。</li>
+      <li>為家庭站破口：許多青少年會接觸此劇的廣告與討論，求主使父母與導師成為第一線的守望者，在家裡就把「耶穌是誰」講解清楚。</li>
+    </ul>
+    <div class="scripture">「我在他們中間尋找一人重修牆垣，在我面前為這國站在破口防堵，使我不滅絕這國。」（結22:30）</div>
+  </section>
+
+  <!-- Section 4 -->
+  <section id="s4">
+    <h2 class="section-title"><span class="icon">🗡️</span>四、穿戴軍裝：為這場仗逐件裝備</h2>
+    <p class="body-text">以弗所書的軍裝不是比喻的裝飾，每一件都對應這場爭戰的一個實際需要：</p>
+    <ul class="prayer-list">
+      <li><strong>真理的帶子</strong>——求主使眾教會在演出前把基督論教導紮實：神性、十架、復活，使信徒心中先有定論，不被劇場的提問鬆動。</li>
+      <li><strong>公義的護心鏡</strong>——求主保守教會的品行：若教會在金錢、權力、醜聞上失守，任何聲明都失去力量；護心鏡破了，言語的刀劍再利也守不住。</li>
+      <li><strong>平安福音的鞋</strong>——求主使信徒帶著平安進入每一場關於此劇的對話，不是帶著火藥；腳蹤所到之處傳的是和平。</li>
+      <li><strong>信德的藤牌</strong>——輿論的火箭必然飛來：嘲諷、標籤（「不寬容」「玻璃心」）、誤解。求主使教會以信心滅盡，不以還擊回應。</li>
+      <li><strong>救恩的頭盔與聖靈的寶劍</strong>——保護思想、單用聖經：求主使教會的每一次公開回應都以神的話為刃，而非以情緒為刃。</li>
+      <li><strong>靠著聖靈隨時多方禱告</strong>——軍裝的最後一件是禱告本身：求主使這場爭戰自始至終在禱告中打，而不是在留言區打。</li>
+    </ul>
+    <div class="scripture">「要穿戴神所賜的全副軍裝，就能抵擋魔鬼的詭計。」（弗6:11）</div>
+  </section>
+
+  <!-- Section 5 -->
+  <section id="s5">
+    <h2 class="section-title"><span class="icon">🩸</span>五、得勝的武器：羔羊的血與見證的道</h2>
+    <p class="body-text">啟示錄12:11啟示了屬靈爭戰最終的得勝方式——不是聲量，不是權力，是「羔羊的血和自己所見證的道」。</p>
+    <p class="body-text">教會高舉羔羊的血：在仇敵控告教會「不寬容」的地方，以基督的愛回應；在教會自覺虧欠的地方，以寶血潔淨。</p>
+    <ul class="prayer-list">
+      <li>求主興起千萬個「見證的道」：每一個信徒預備好自己的故事——我所認識的耶穌不是舞台上那位迷惘的人，是改變我生命的復活之主。</li>
+      <li>求主賜下「雖至於死也不愛惜性命」的心志：不是殉道的悲情，是把名聲、面子、被誤解的委屈都置之度外的自由。</li>
+    </ul>
+    <div class="scripture">「弟兄勝過牠，是因羔羊的血和自己所見證的道。他們雖至於死，也不愛惜性命。」（啟12:11）</div>
+  </section>
+
+  <!-- Section 6 -->
+  <section id="s6">
+    <h2 class="section-title"><span class="icon">🎭</span>六、轉守為攻：奪回藝術的山頭</h2>
+    <p class="body-text">最深的禱告方向不是防守。仇敵用一齣音樂劇追問「耶穌是誰」五十年——教會何時用同等水準的藝術回答這個問題？管制退場、廣場開放，對謊言是機會，對福音同樣是機會。</p>
+    <ul class="prayer-list">
+      <li>求莊稼的主興起屬神的劇作家、作曲家、導演、演員：在這個開放的公共廣場上，創作出宣告基督神性與復活的一流作品——不是宣傳品，是藝術品。</li>
+      <li>求主祝福教會中的藝術人員：使教會不再懷疑藝術這個領域，而是差遣兒女進入它、潔淨它、收復它——萬有屬於祂，舞台也屬於祂。</li>
+      <li>求主使2026年8月成為轉折點：多年後回看，這不是教會失守的一年，而是教會在開放廣場上學會爭戰、開始收割的一年。</li>
+    </ul>
+    <div class="scripture">「感謝神！常率領我們在基督裡誇勝，並藉著我們在各處顯揚那因認識基督而有的香氣。」（林後2:14）</div>
+  </section>
+
+</div>
+
+<footer>
+  以弗所書6:10-18 ｜ 哥林多後書10:4-5 ｜ 2026年6月
+</footer>
+
+</body>
+</html>
